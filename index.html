@@ -1,0 +1,60 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+   
+    <title></title>
+    
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+
+    <script type="text/javascript">
+        function loaded() {
+            var visitor = navigator.onLine ? "ONLINE" : "OFFLINE";
+
+            if (visitor == "ONLINE") {
+                window.location.hrf = "index.html";
+            } else if (visitor == "OFFLINE") {
+                alert("Active Internet Connection Required");
+            }
+        }
+   </script>
+
+</head>
+<body onload="loaded()">
+    
+        <div id="wraper">
+       <header style="overflow:hidden;">
+          
+      </header>
+        
+            <div id="outerBg" style="background:url(images/background.jpg) no-repeat center top;"/>
+            <div class="login">
+                <a id="login" href="login.html" target="_self"></a><a id="regg" href="register.html" target="_self"></a>
+            </div>
+                <div class="logoMain">
+                    <a href="index.html" title="Home" target="_self"></a>
+                </div>
+               
+                    <p style="margin-bottom:5px !important">
+                        Create, Share & Preserve “Your Sports Memories”...<br />
+                        Explore Infinite Opportunities in Sports <br /> Recognition, Competition & Connections
+                    </p>
+                   <div id="centerTabs">
+                        <a href="welcome.html" target="_self" id="thire1"> </a>
+                         <a href="sports.html" target="_self" id="thire2"> </a><br />
+                        <a href="multicultural.html" target="_self" id="thire3"> </a> 
+                        <a href="beDiscovered.html" target="_self" id="thire4"> </a><br />
+                       <a href="AboutUs.html" target="_self" id="thire5"> </a>
+                    </div>
+                    <p style="margin:0 !important;">
+                        <strong>"Free"... For Kids, Families & Adults of All Ages</strong>
+                    </p>
+                  
+                    
+                   
+                    <!-- Social Icon -->
+                </div>
+          
+            
+           
+</body>
+</html>
