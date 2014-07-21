@@ -3,7 +3,7 @@
     xmlns:gap = "http://phonegap.com/ns/1.0"
     id        = "com.kids2prosports.k2ps"
     versionCode="12"
-    version   = "1.4.0">
+    version   = "1.4.1">
   <preference name="phonegap-version" value="2.9.0" />
   <!-- versionCode is optional and Android only -->
 
@@ -13,16 +13,18 @@
     Kids2ProSports is the world’s premier multicultural Global Sports Network and Legacy Search Engine. It’s exclusive “Timeline Features” provide the resources to Create, Share and Preserve “Your Sports Legacy“ from Childhood… to Professional and Beyond.
   </description>
 
-  <author href="http://www.kids2prosports.com" email="adnanlatif.324@gmail.com">
-    Adnan Latif
+  <author href="http://www.kids2prosports.com" email="rizwan.2bv@gmail.com">
+    Rizwan Sajid
   </author>
   <icon src="images/icon.png" gap:role="default" />
   <!--icons -->
   <!-- iphone -->
   <icon src="icons/ios/icon.png" gap:platform="ios" width="57" height="57" />
   <icon src="icons/ios/icon-72.png" gap:platform="ios" width="72" height="72" />
+  <icon src="icons/ios/icon-76.png" gap:platform="ios" width="76" height="76" />
   <icon src="icons/ios/icon_at_2x.png" gap:platform="ios" width="114" height="114" />
   <icon src="icons/ios/icon-72@2x.png" gap:platform="ios" width="144" height="144" />
+  <icon src="icons/ios/icon-76@2x.png" gap:platform="ios" width="152" height="152" />
 
   <!--icons end -->
 
